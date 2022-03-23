@@ -10,6 +10,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.teal,
         title: Text("Frenzyy Chat"),
       ),
       body: ChatScreen(),
